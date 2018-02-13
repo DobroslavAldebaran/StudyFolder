@@ -2,23 +2,23 @@
 a, b : integer;
 
 begin
-writeln('Enter number 1:');
-readln(a);
+WriteLn('Enter number 1:');
+ReadLn(a);
 
-writeln('Enter number 2:');
-readln(b);
+WriteLn('Enter number 2:');
+ReadLn(b);
 
-writeln('---------------------------------');
+WriteLn('---------------------------------');
 
-writeln('Output sum:');
-writeln(a + b);
+WriteLn('Output sum:');
+WriteLn(a + b);
 
-writeln('Output difference:');
-writeln(a - b);
+WriteLn('Output difference:');
+WriteLn(a - b);
 
-writeln('Output multiplication:');
-writeln(a * b);
+WriteLn('Output multiplication:');
+WriteLn(a * b);
 
-writeln('Output division:');
-writeln(a / b);
+WriteLn('Output division:');
+WriteLn(a / b);
 end.

@@ -2,17 +2,17 @@
 a, b : integer;
 
 begin
-writeln('Enter the lenght in meters:');
-readln(a);
+WriteLn('Enter the lenght in meters:');
+ReadLn(a);
 
-writeln('Enter the width in meters:');
-readln(b);
+WriteLn('Enter the width in meters:');
+ReadLn(b);
 
-writeln('--------------------------------');
+WriteLn('--------------------------------');
 
-writeln('Output perimeter');
-writeln( (a+b) * 2, ' meters' );
+WriteLn('Output perimeter');
+WriteLn( (a+b) * 2, ' meters' );
 
-writeln('Output area:');
-writeln( a * b, ' meters' );
+WriteLn('Output area:');
+WriteLn( a * b, ' meters' );
 end.
